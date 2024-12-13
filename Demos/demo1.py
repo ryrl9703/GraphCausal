@@ -23,6 +23,10 @@ from torch_geometric.utils import add_self_loops
 
 from model.model import GATAutoEncoderDecoder
 from model.utils import NetworkEnhance
+<<<<<<< HEAD
+=======
+from model import utils
+>>>>>>> 9e5392af1a2d4e163fea8842b939a28b4aef1cb4
 from model.scGAC_utils import getGraph, getNeMatrix
 from torch_geometric.data import Data, ClusterData, ClusterLoader
 
